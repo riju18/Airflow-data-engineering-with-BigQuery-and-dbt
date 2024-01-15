@@ -1,6 +1,8 @@
 # Airflow-data-engineering-with-BigQuery-and-dbt
 Fetch Data from a simple csv file, send the data in GCP BigQuery table and run dbt to automate the dwh.
 
+![alt retail_data_dag](dags/retail_data/screenshots/retail_data_projct.png)
+
 # Get Started
 
 + create python venv
