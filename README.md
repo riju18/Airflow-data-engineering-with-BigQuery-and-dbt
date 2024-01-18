@@ -1,5 +1,5 @@
 # Airflow-data-engineering-with-BigQuery-and-dbt
-Fetch Data from a simple csv file, send the data in GCP BigQuery table and run dbt to automate the dwh.
+Fetch Data from a simple csv file, send the data in GCP BigQuery table, run dbt to automate the dwh and run soda to check data quality.
 
 ![alt retail_data_dag](dags/retail_data/screenshots/retail_data_projct.png)
 
@@ -21,9 +21,9 @@ Fetch Data from a simple csv file, send the data in GCP BigQuery table and run d
     - connection name: my_gcp_conn
     - value: downloaded ```service account json file content```
 
-# Configure dbt in airflow
+# Configure dbt and soda in airflow
 
-+ at the bottom of the ```dags/data_retail_project.py```, modify the ```bash command``` with dbt project dir and dbt env from where the ```dbt``` will run
++ at the bottom of the ```dags/data_retail_project.py```, modify the ```bash command``` with dbt and soda project dir,dbt and soda env from where the ```dbt``` will run.
 
 # Run
 
