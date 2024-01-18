@@ -23,7 +23,7 @@ Fetch Data from a simple csv file, send the data in GCP BigQuery table, run dbt 
 
 # Configure dbt and soda in airflow
 
-+ at the bottom of the ```dags/data_retail_project.py```, modify the ```bash command``` with dbt and soda project dir,dbt and soda env from where the ```dbt``` will run.
++ at the bottom of the ```dags/data_retail_project.py```, modify the ```bash command``` with dbt and soda project dir,dbt and soda env from where the ```dbt and soda``` will run.
 
 # Run
 
